@@ -1,0 +1,5 @@
+D:/codelearng/GhostEscape/build/CMakeFiles/GHOSTESCAPE.dir
+D:/codelearng/GhostEscape/build/CMakeFiles/package.dir
+D:/codelearng/GhostEscape/build/CMakeFiles/package_source.dir
+D:/codelearng/GhostEscape/build/CMakeFiles/edit_cache.dir
+D:/codelearng/GhostEscape/build/CMakeFiles/rebuild_cache.dir

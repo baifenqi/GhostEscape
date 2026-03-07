@@ -31,7 +31,7 @@ rule CXX_COMPILER__GHOSTESCAPE_unscanned_Debug
 
 rule CXX_EXECUTABLE_LINKER__GHOSTESCAPE_Debug
   command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=$OBJECT_DIR --rc=C:\PROGRA~2\WINDOW~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WINDOW~1\10\bin\100261~1.0\x64\mt.exe --manifests $MANIFESTS -- D:\vs\VC\Tools\MSVC\14.50.35717\bin\Hostx64\x64\link.exe /nologo $in  /out:$TARGET_FILE /implib:$TARGET_IMPLIB /pdb:$TARGET_PDB /version:0.0 $LINK_FLAGS $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
-  description = Linking CXX executable $TARGET_FILE
+  description = Linking CXX executable $TARGET_FILE; Copying assets to build directory...
   restat = $RESTAT
 
 

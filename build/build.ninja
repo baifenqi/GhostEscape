@@ -52,67 +52,122 @@ build cmake_object_order_depends_target_GHOSTESCAPE: phony || .
 build CMakeFiles\GHOSTESCAPE.dir\src\main.cpp.obj: CXX_COMPILER__GHOSTESCAPE_unscanned_Debug D$:\codelearng\GhostEscape\src\main.cpp || cmake_object_order_depends_target_GHOSTESCAPE
   CONFIG = Debug
   DEFINES = -DPLATFORM_WINDOWS
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi
   INCLUDES = -ID:\codelearng\GhostEscape\include -external:ID:\codelearng\stool_package\sdl3\include -external:ID:\codelearng\stool_package\sdl3\cmake\..\include -external:ID:\codelearng\stool_package\glm\include -external:W0
   OBJECT_DIR = CMakeFiles\GHOSTESCAPE.dir
   OBJECT_FILE_DIR = CMakeFiles\GHOSTESCAPE.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\GHOSTESCAPE.dir\
-  TARGET_PDB = bin\GHOSTESCAPE.pdb
+  TARGET_PDB = bin\Debug\GHOSTESCAPE.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\GHOSTESCAPE.dir
 
 build CMakeFiles\GHOSTESCAPE.dir\src\core\Game.cpp.obj: CXX_COMPILER__GHOSTESCAPE_unscanned_Debug D$:\codelearng\GhostEscape\src\core\Game.cpp || cmake_object_order_depends_target_GHOSTESCAPE
   CONFIG = Debug
   DEFINES = -DPLATFORM_WINDOWS
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi
   INCLUDES = -ID:\codelearng\GhostEscape\include -external:ID:\codelearng\stool_package\sdl3\include -external:ID:\codelearng\stool_package\sdl3\cmake\..\include -external:ID:\codelearng\stool_package\glm\include -external:W0
   OBJECT_DIR = CMakeFiles\GHOSTESCAPE.dir
   OBJECT_FILE_DIR = CMakeFiles\GHOSTESCAPE.dir\src\core
   TARGET_COMPILE_PDB = CMakeFiles\GHOSTESCAPE.dir\
-  TARGET_PDB = bin\GHOSTESCAPE.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\GHOSTESCAPE.dir
-
-build CMakeFiles\GHOSTESCAPE.dir\src\SceneMain.cpp.obj: CXX_COMPILER__GHOSTESCAPE_unscanned_Debug D$:\codelearng\GhostEscape\src\SceneMain.cpp || cmake_object_order_depends_target_GHOSTESCAPE
-  CONFIG = Debug
-  DEFINES = -DPLATFORM_WINDOWS
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi
-  INCLUDES = -ID:\codelearng\GhostEscape\include -external:ID:\codelearng\stool_package\sdl3\include -external:ID:\codelearng\stool_package\sdl3\cmake\..\include -external:ID:\codelearng\stool_package\glm\include -external:W0
-  OBJECT_DIR = CMakeFiles\GHOSTESCAPE.dir
-  OBJECT_FILE_DIR = CMakeFiles\GHOSTESCAPE.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\GHOSTESCAPE.dir\
-  TARGET_PDB = bin\GHOSTESCAPE.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\GHOSTESCAPE.dir
-
-build CMakeFiles\GHOSTESCAPE.dir\src\core\ObjectWorld.cpp.obj: CXX_COMPILER__GHOSTESCAPE_unscanned_Debug D$:\codelearng\GhostEscape\src\core\ObjectWorld.cpp || cmake_object_order_depends_target_GHOSTESCAPE
-  CONFIG = Debug
-  DEFINES = -DPLATFORM_WINDOWS
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi
-  INCLUDES = -ID:\codelearng\GhostEscape\include -external:ID:\codelearng\stool_package\sdl3\include -external:ID:\codelearng\stool_package\sdl3\cmake\..\include -external:ID:\codelearng\stool_package\glm\include -external:W0
-  OBJECT_DIR = CMakeFiles\GHOSTESCAPE.dir
-  OBJECT_FILE_DIR = CMakeFiles\GHOSTESCAPE.dir\src\core
-  TARGET_COMPILE_PDB = CMakeFiles\GHOSTESCAPE.dir\
-  TARGET_PDB = bin\GHOSTESCAPE.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\GHOSTESCAPE.dir
-
-build CMakeFiles\GHOSTESCAPE.dir\src\Player.cpp.obj: CXX_COMPILER__GHOSTESCAPE_unscanned_Debug D$:\codelearng\GhostEscape\src\Player.cpp || cmake_object_order_depends_target_GHOSTESCAPE
-  CONFIG = Debug
-  DEFINES = -DPLATFORM_WINDOWS
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi
-  INCLUDES = -ID:\codelearng\GhostEscape\include -external:ID:\codelearng\stool_package\sdl3\include -external:ID:\codelearng\stool_package\sdl3\cmake\..\include -external:ID:\codelearng\stool_package\glm\include -external:W0
-  OBJECT_DIR = CMakeFiles\GHOSTESCAPE.dir
-  OBJECT_FILE_DIR = CMakeFiles\GHOSTESCAPE.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\GHOSTESCAPE.dir\
-  TARGET_PDB = bin\GHOSTESCAPE.pdb
+  TARGET_PDB = bin\Debug\GHOSTESCAPE.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\GHOSTESCAPE.dir
 
 build CMakeFiles\GHOSTESCAPE.dir\src\core\Scene.cpp.obj: CXX_COMPILER__GHOSTESCAPE_unscanned_Debug D$:\codelearng\GhostEscape\src\core\Scene.cpp || cmake_object_order_depends_target_GHOSTESCAPE
   CONFIG = Debug
   DEFINES = -DPLATFORM_WINDOWS
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi
   INCLUDES = -ID:\codelearng\GhostEscape\include -external:ID:\codelearng\stool_package\sdl3\include -external:ID:\codelearng\stool_package\sdl3\cmake\..\include -external:ID:\codelearng\stool_package\glm\include -external:W0
   OBJECT_DIR = CMakeFiles\GHOSTESCAPE.dir
   OBJECT_FILE_DIR = CMakeFiles\GHOSTESCAPE.dir\src\core
   TARGET_COMPILE_PDB = CMakeFiles\GHOSTESCAPE.dir\
-  TARGET_PDB = bin\GHOSTESCAPE.pdb
+  TARGET_PDB = bin\Debug\GHOSTESCAPE.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\GHOSTESCAPE.dir
+
+build CMakeFiles\GHOSTESCAPE.dir\src\core\Object.cpp.obj: CXX_COMPILER__GHOSTESCAPE_unscanned_Debug D$:\codelearng\GhostEscape\src\core\Object.cpp || cmake_object_order_depends_target_GHOSTESCAPE
+  CONFIG = Debug
+  DEFINES = -DPLATFORM_WINDOWS
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi
+  INCLUDES = -ID:\codelearng\GhostEscape\include -external:ID:\codelearng\stool_package\sdl3\include -external:ID:\codelearng\stool_package\sdl3\cmake\..\include -external:ID:\codelearng\stool_package\glm\include -external:W0
+  OBJECT_DIR = CMakeFiles\GHOSTESCAPE.dir
+  OBJECT_FILE_DIR = CMakeFiles\GHOSTESCAPE.dir\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\GHOSTESCAPE.dir\
+  TARGET_PDB = bin\Debug\GHOSTESCAPE.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\GHOSTESCAPE.dir
+
+build CMakeFiles\GHOSTESCAPE.dir\src\core\ObjectWorld.cpp.obj: CXX_COMPILER__GHOSTESCAPE_unscanned_Debug D$:\codelearng\GhostEscape\src\core\ObjectWorld.cpp || cmake_object_order_depends_target_GHOSTESCAPE
+  CONFIG = Debug
+  DEFINES = -DPLATFORM_WINDOWS
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi
+  INCLUDES = -ID:\codelearng\GhostEscape\include -external:ID:\codelearng\stool_package\sdl3\include -external:ID:\codelearng\stool_package\sdl3\cmake\..\include -external:ID:\codelearng\stool_package\glm\include -external:W0
+  OBJECT_DIR = CMakeFiles\GHOSTESCAPE.dir
+  OBJECT_FILE_DIR = CMakeFiles\GHOSTESCAPE.dir\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\GHOSTESCAPE.dir\
+  TARGET_PDB = bin\Debug\GHOSTESCAPE.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\GHOSTESCAPE.dir
+
+build CMakeFiles\GHOSTESCAPE.dir\src\core\ObjectAffiliate.cpp.obj: CXX_COMPILER__GHOSTESCAPE_unscanned_Debug D$:\codelearng\GhostEscape\src\core\ObjectAffiliate.cpp || cmake_object_order_depends_target_GHOSTESCAPE
+  CONFIG = Debug
+  DEFINES = -DPLATFORM_WINDOWS
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi
+  INCLUDES = -ID:\codelearng\GhostEscape\include -external:ID:\codelearng\stool_package\sdl3\include -external:ID:\codelearng\stool_package\sdl3\cmake\..\include -external:ID:\codelearng\stool_package\glm\include -external:W0
+  OBJECT_DIR = CMakeFiles\GHOSTESCAPE.dir
+  OBJECT_FILE_DIR = CMakeFiles\GHOSTESCAPE.dir\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\GHOSTESCAPE.dir\
+  TARGET_PDB = bin\Debug\GHOSTESCAPE.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\GHOSTESCAPE.dir
+
+build CMakeFiles\GHOSTESCAPE.dir\src\core\Asset_store.cpp.obj: CXX_COMPILER__GHOSTESCAPE_unscanned_Debug D$:\codelearng\GhostEscape\src\core\Asset_store.cpp || cmake_object_order_depends_target_GHOSTESCAPE
+  CONFIG = Debug
+  DEFINES = -DPLATFORM_WINDOWS
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi
+  INCLUDES = -ID:\codelearng\GhostEscape\include -external:ID:\codelearng\stool_package\sdl3\include -external:ID:\codelearng\stool_package\sdl3\cmake\..\include -external:ID:\codelearng\stool_package\glm\include -external:W0
+  OBJECT_DIR = CMakeFiles\GHOSTESCAPE.dir
+  OBJECT_FILE_DIR = CMakeFiles\GHOSTESCAPE.dir\src\core
+  TARGET_COMPILE_PDB = CMakeFiles\GHOSTESCAPE.dir\
+  TARGET_PDB = bin\Debug\GHOSTESCAPE.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\GHOSTESCAPE.dir
+
+build CMakeFiles\GHOSTESCAPE.dir\src\SceneMain.cpp.obj: CXX_COMPILER__GHOSTESCAPE_unscanned_Debug D$:\codelearng\GhostEscape\src\SceneMain.cpp || cmake_object_order_depends_target_GHOSTESCAPE
+  CONFIG = Debug
+  DEFINES = -DPLATFORM_WINDOWS
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi
+  INCLUDES = -ID:\codelearng\GhostEscape\include -external:ID:\codelearng\stool_package\sdl3\include -external:ID:\codelearng\stool_package\sdl3\cmake\..\include -external:ID:\codelearng\stool_package\glm\include -external:W0
+  OBJECT_DIR = CMakeFiles\GHOSTESCAPE.dir
+  OBJECT_FILE_DIR = CMakeFiles\GHOSTESCAPE.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\GHOSTESCAPE.dir\
+  TARGET_PDB = bin\Debug\GHOSTESCAPE.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\GHOSTESCAPE.dir
+
+build CMakeFiles\GHOSTESCAPE.dir\src\Player.cpp.obj: CXX_COMPILER__GHOSTESCAPE_unscanned_Debug D$:\codelearng\GhostEscape\src\Player.cpp || cmake_object_order_depends_target_GHOSTESCAPE
+  CONFIG = Debug
+  DEFINES = -DPLATFORM_WINDOWS
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi
+  INCLUDES = -ID:\codelearng\GhostEscape\include -external:ID:\codelearng\stool_package\sdl3\include -external:ID:\codelearng\stool_package\sdl3\cmake\..\include -external:ID:\codelearng\stool_package\glm\include -external:W0
+  OBJECT_DIR = CMakeFiles\GHOSTESCAPE.dir
+  OBJECT_FILE_DIR = CMakeFiles\GHOSTESCAPE.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\GHOSTESCAPE.dir\
+  TARGET_PDB = bin\Debug\GHOSTESCAPE.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\GHOSTESCAPE.dir
+
+build CMakeFiles\GHOSTESCAPE.dir\src\affiliate\Sprite.cpp.obj: CXX_COMPILER__GHOSTESCAPE_unscanned_Debug D$:\codelearng\GhostEscape\src\affiliate\Sprite.cpp || cmake_object_order_depends_target_GHOSTESCAPE
+  CONFIG = Debug
+  DEFINES = -DPLATFORM_WINDOWS
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi
+  INCLUDES = -ID:\codelearng\GhostEscape\include -external:ID:\codelearng\stool_package\sdl3\include -external:ID:\codelearng\stool_package\sdl3\cmake\..\include -external:ID:\codelearng\stool_package\glm\include -external:W0
+  OBJECT_DIR = CMakeFiles\GHOSTESCAPE.dir
+  OBJECT_FILE_DIR = CMakeFiles\GHOSTESCAPE.dir\src\affiliate
+  TARGET_COMPILE_PDB = CMakeFiles\GHOSTESCAPE.dir\
+  TARGET_PDB = bin\Debug\GHOSTESCAPE.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\GHOSTESCAPE.dir
+
+build CMakeFiles\GHOSTESCAPE.dir\src\affiliate\SpriteAnim.cpp.obj: CXX_COMPILER__GHOSTESCAPE_unscanned_Debug D$:\codelearng\GhostEscape\src\affiliate\SpriteAnim.cpp || cmake_object_order_depends_target_GHOSTESCAPE
+  CONFIG = Debug
+  DEFINES = -DPLATFORM_WINDOWS
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi
+  INCLUDES = -ID:\codelearng\GhostEscape\include -external:ID:\codelearng\stool_package\sdl3\include -external:ID:\codelearng\stool_package\sdl3\cmake\..\include -external:ID:\codelearng\stool_package\glm\include -external:W0
+  OBJECT_DIR = CMakeFiles\GHOSTESCAPE.dir
+  OBJECT_FILE_DIR = CMakeFiles\GHOSTESCAPE.dir\src\affiliate
+  TARGET_COMPILE_PDB = CMakeFiles\GHOSTESCAPE.dir\
+  TARGET_PDB = bin\Debug\GHOSTESCAPE.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\GHOSTESCAPE.dir
 
 
@@ -121,45 +176,21 @@ build CMakeFiles\GHOSTESCAPE.dir\src\core\Scene.cpp.obj: CXX_COMPILER__GHOSTESCA
 
 
 #############################################
-# Link the executable bin\GHOSTESCAPE.exe
+# Link the executable bin\Debug\GHOSTESCAPE.exe
 
-build bin\GHOSTESCAPE.exe: CXX_EXECUTABLE_LINKER__GHOSTESCAPE_Debug CMakeFiles\GHOSTESCAPE.dir\src\main.cpp.obj CMakeFiles\GHOSTESCAPE.dir\src\core\Game.cpp.obj CMakeFiles\GHOSTESCAPE.dir\src\SceneMain.cpp.obj CMakeFiles\GHOSTESCAPE.dir\src\core\ObjectWorld.cpp.obj CMakeFiles\GHOSTESCAPE.dir\src\Player.cpp.obj CMakeFiles\GHOSTESCAPE.dir\src\core\Scene.cpp.obj | D$:\codelearng\stool_package\sdl3\cmake\..\lib\x64\SDL3_image.lib D$:\codelearng\stool_package\sdl3\lib\SDL3_mixer.lib D$:\codelearng\stool_package\sdl3\cmake\..\lib\x64\SDL3_ttf.lib D$:\codelearng\stool_package\glm\lib\glm.lib D$:\codelearng\stool_package\sdl3\lib\x64\SDL3.lib
+build bin\Debug\GHOSTESCAPE.exe: CXX_EXECUTABLE_LINKER__GHOSTESCAPE_Debug CMakeFiles\GHOSTESCAPE.dir\src\main.cpp.obj CMakeFiles\GHOSTESCAPE.dir\src\core\Game.cpp.obj CMakeFiles\GHOSTESCAPE.dir\src\core\Scene.cpp.obj CMakeFiles\GHOSTESCAPE.dir\src\core\Object.cpp.obj CMakeFiles\GHOSTESCAPE.dir\src\core\ObjectWorld.cpp.obj CMakeFiles\GHOSTESCAPE.dir\src\core\ObjectAffiliate.cpp.obj CMakeFiles\GHOSTESCAPE.dir\src\core\Asset_store.cpp.obj CMakeFiles\GHOSTESCAPE.dir\src\SceneMain.cpp.obj CMakeFiles\GHOSTESCAPE.dir\src\Player.cpp.obj CMakeFiles\GHOSTESCAPE.dir\src\affiliate\Sprite.cpp.obj CMakeFiles\GHOSTESCAPE.dir\src\affiliate\SpriteAnim.cpp.obj | D$:\codelearng\stool_package\sdl3\cmake\..\lib\x64\SDL3_image.lib D$:\codelearng\stool_package\sdl3\lib\SDL3_mixer.lib D$:\codelearng\stool_package\sdl3\cmake\..\lib\x64\SDL3_ttf.lib D$:\codelearng\stool_package\glm\lib\glm.lib D$:\codelearng\stool_package\sdl3\lib\x64\SDL3.lib
   CONFIG = Debug
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -MDd
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = D:\codelearng\stool_package\sdl3\cmake\..\lib\x64\SDL3_image.lib  D:\codelearng\stool_package\sdl3\lib\SDL3_mixer.lib  D:\codelearng\stool_package\sdl3\cmake\..\lib\x64\SDL3_ttf.lib  D:\codelearng\stool_package\glm\lib\glm.lib  D:\codelearng\stool_package\sdl3\lib\x64\SDL3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\GHOSTESCAPE.dir
-  POST_BUILD = cd .
+  POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D D:\codelearng\GhostEscape\build && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory_if_different D:/codelearng/GhostEscape/assets D:/codelearng/GhostEscape/build/bin/Debug/assets"
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = CMakeFiles\GHOSTESCAPE.dir\
-  TARGET_FILE = bin\GHOSTESCAPE.exe
-  TARGET_IMPLIB = lib\GHOSTESCAPE.lib
-  TARGET_PDB = bin\GHOSTESCAPE.pdb
+  TARGET_FILE = bin\Debug\GHOSTESCAPE.exe
+  TARGET_IMPLIB = lib\Debug\GHOSTESCAPE.lib
+  TARGET_PDB = bin\Debug\GHOSTESCAPE.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\GHOSTESCAPE.dir
-
-
-#############################################
-# Utility command for package
-
-build CMakeFiles\package.util: CUSTOM_COMMAND all
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codelearng\GhostEscape\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
-  DESC = Run CPack packaging tool...
-  pool = console
-  restat = 1
-
-build package: phony CMakeFiles\package.util
-
-
-#############################################
-# Utility command for package_source
-
-build CMakeFiles\package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\codelearng\GhostEscape\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
-  DESC = Run CPack packaging tool for source...
-  pool = console
-  restat = 1
-
-build package_source: phony CMakeFiles\package_source.util
 
 
 #############################################
@@ -188,9 +219,9 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build GHOSTESCAPE: phony bin\GHOSTESCAPE.exe
+build GHOSTESCAPE: phony bin\Debug\GHOSTESCAPE.exe
 
-build GHOSTESCAPE.exe: phony bin\GHOSTESCAPE.exe
+build GHOSTESCAPE.exe: phony bin\Debug\GHOSTESCAPE.exe
 
 # =============================================================================
 # Folder targets.
@@ -200,7 +231,7 @@ build GHOSTESCAPE.exe: phony bin\GHOSTESCAPE.exe
 #############################################
 # Folder: D:/codelearng/GhostEscape/build
 
-build all: phony bin\GHOSTESCAPE.exe
+build all: phony bin\Debug\GHOSTESCAPE.exe
 
 # =============================================================================
 # Built-in targets

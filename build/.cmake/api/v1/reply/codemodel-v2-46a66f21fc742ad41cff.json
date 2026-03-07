@@ -1,0 +1,195 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3::Headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3__Headers-Debug-e06bfdd872e9390e7a66.json",
+					"name" : "SDL3::Headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3::SDL3-shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3__SDL3-shared-Debug-6a47953613da94e80362.json",
+					"name" : "SDL3::SDL3-shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3::SDL3_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3__SDL3_test-Debug-684898668e8bbd42e811.json",
+					"name" : "SDL3::SDL3_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3_image::SDL3_image-shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3_image__SDL3_image-shared-Debug-9882e111c01ade42f687.json",
+					"name" : "SDL3_image::SDL3_image-shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3_mixer::SDL3_mixer-shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3_mixer__SDL3_mixer-shared-Debug-6ced2b83f531484bc6cd.json",
+					"name" : "SDL3_mixer::SDL3_mixer-shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3_mixer::WavPack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3_mixer__WavPack-Debug-acb6f40ee275ff35d8c4.json",
+					"name" : "SDL3_mixer::WavPack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3_mixer::gme_shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3_mixer__gme_shared-Debug-82be0858a6698b809382.json",
+					"name" : "SDL3_mixer::gme_shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3_mixer::ogg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3_mixer__ogg-Debug-dc5bf28fb1e919c5f33a.json",
+					"name" : "SDL3_mixer::ogg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3_mixer::opus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3_mixer__opus-Debug-ce4b5ffd41047eeea60a.json",
+					"name" : "SDL3_mixer::opus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3_mixer::opusfile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3_mixer__opusfile-Debug-56e25d0ba45be1b44fa7.json",
+					"name" : "SDL3_mixer::opusfile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3_mixer::xmp_shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3_mixer__xmp_shared-Debug-4ba8d60b68a3a32d23ba.json",
+					"name" : "SDL3_mixer::xmp_shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL3_ttf::SDL3_ttf-shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL3_ttf__SDL3_ttf-shared-Debug-377a48516d5d727e1147.json",
+					"name" : "SDL3_ttf::SDL3_ttf-shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "glm::glm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glm__glm-Debug-9ac4cae4dd8f11e4e33e.json",
+					"name" : "glm::glm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "glm::glm-header-only::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glm__glm-header-only-Debug-80389f6cef0776424e55.json",
+					"name" : "glm::glm-header-only",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GHOSTESCAPE",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "GHOSTESCAPE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GHOSTESCAPE-Debug-45e29fa08cf063f00106.json",
+					"name" : "GHOSTESCAPE",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/codelearng/GhostEscape/build",
+		"source" : "D:/codelearng/GhostEscape"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

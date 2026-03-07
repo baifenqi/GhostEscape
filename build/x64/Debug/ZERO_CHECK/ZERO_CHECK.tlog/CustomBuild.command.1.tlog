@@ -1,0 +1,10 @@
+^D:\CODELEARNG\GHOSTESCAPE\BUILD\CMAKEFILES\E50D98E25D70040B7EA1EC058A71DD58\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/codelearng/GhostEscape -BD:/codelearng/GhostEscape/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/codelearng/GhostEscape/build/GHOSTESCAPE.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,19 @@
+{
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "args": ["-NoExit", "-Command", "chcp 65001 > $null"] // 关键：PowerShell启动时切换为UTF-8编码
+        },
+        "Command Prompt": {
+            "path": "C:\\Windows\\System32\\cmd.exe",
+            "args": ["/k", "chcp 65001 > nul"] // 备用：cmd也切换为UTF-8
+        }
+    },
+    "cmake.configureArgs": [],
+    // 新增：确保代码文件编码为UTF-8 with BOM（核心）
+    "files.encoding": "utf8bom",
+    "files.autoGuessEncoding": true,
+    // 新增：终端输出编码兜底
+    "terminal.integrated.encoding": "utf8"
+}

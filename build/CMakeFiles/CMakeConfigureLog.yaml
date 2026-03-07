@@ -5,14 +5,14 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       The system is: Windows - 10.0.19043 - AMD64
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
     description: "Program used to build from build.ninja files."
@@ -533,7 +533,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER"
     description: "C compiler"
@@ -656,7 +656,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -737,7 +737,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: D:/vs/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe 
@@ -770,7 +770,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Detecting C compiler /showIncludes prefix:
         main.c
@@ -784,7 +784,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "_CMAKE_TOOL_WITH_PATH"
     description: "Path to a program."
@@ -906,7 +906,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "_CMAKE_TOOL_WITH_PATH"
     description: "Path to a program."
@@ -1166,7 +1166,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -1286,7 +1286,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_MT"
     description: "Path to a program."
@@ -1421,7 +1421,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -1541,7 +1541,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER"
     description: "CXX compiler"
@@ -1618,7 +1618,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -1699,7 +1699,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: D:/vs/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe 
@@ -1732,7 +1732,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Detecting CXX compiler /showIncludes prefix:
         main.c
@@ -1746,7 +1746,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "_CMAKE_TOOL_WITH_PATH"
     description: "Path to a program."
@@ -2009,7 +2009,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_RC_COMPILER"
     description: "RC compiler"
@@ -2080,9 +2080,9 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/CMake/sbin/"
       - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/Project/bin/"
-      - "C:/Program Files (x86)/Project/sbin/"
-      - "C:/Program Files (x86)/Project/"
+      - "C:/Program Files (x86)/GHOSTESCAPE/bin/"
+      - "C:/Program Files (x86)/GHOSTESCAPE/sbin/"
+      - "C:/Program Files (x86)/GHOSTESCAPE/"
     searched_directories:
       - "D:/vs/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/rc.com"
       - "D:/vs/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/rc.exe"
@@ -2151,35 +2151,36 @@ events:
         - "D:\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "D:\\vs\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
         - "D:\\vs\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/GHOSTESCAPE"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/Project"
+        - "C:/Program Files (x86)/GHOSTESCAPE"
   -
     kind: "try_compile-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-aybc2e"
-      binary: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-aybc2e"
+      source: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-vha0dv"
+      binary: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-vha0dv"
     cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-aybc2e'
+        Change Dir: 'D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-vha0dv'
         
-        Run Build Command(s): D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_87d77
-        [1/2] D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_87d77.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_87d77.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_87d77.dir --rc=C:\\PROGRA~2\\WINDOW~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WINDOW~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_87d77.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_87d77.exe /implib:cmTC_87d77.lib /pdb:cmTC_87d77.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_037bf
+        [1/2] D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_037bf.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_037bf.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_037bf.dir --rc=C:\\PROGRA~2\\WINDOW~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WINDOW~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_037bf.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_037bf.exe /implib:cmTC_037bf.lib /pdb:cmTC_037bf.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -2187,7 +2188,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -2205,7 +2206,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Running the C compiler's linker: "D:/vs/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.50.35722.0
@@ -2215,25 +2216,26 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-uena3c"
-      binary: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-uena3c"
+      source: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-8aqn4b"
+      binary: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-8aqn4b"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-uena3c'
+        Change Dir: 'D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-8aqn4b'
         
-        Run Build Command(s): D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_c8aa9
-        [1/2] D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_MBCS  /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c8aa9.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_c8aa9.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_c8aa9.dir --rc=C:\\PROGRA~2\\WINDOW~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WINDOW~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c8aa9.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_c8aa9.exe /implib:cmTC_c8aa9.lib /pdb:cmTC_c8aa9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_768c4
+        [1/2] D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_MBCS  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_768c4.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_768c4.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_768c4.dir --rc=C:\\PROGRA~2\\WINDOW~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WINDOW~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_768c4.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_768c4.exe /implib:cmTC_768c4.lib /pdb:cmTC_768c4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -2241,7 +2243,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -2259,491 +2261,23 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Running the CXX compiler's linker: "D:/vs/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.50.35722.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
-...
-
----
-events:
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "CMakeLists.txt:5 (find_package)"
-    name: "SD"
-    configs:
-      -
-        filename: "SDConfig.cmake"
-        kind: "cmake"
-      -
-        filename: "sd-config.cmake"
-        kind: "cmake"
-    version_request:
-      exact: false
-    settings:
-      required: "optional"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "SD"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: true
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "D:/codelearng/GhostEscape/build/CMakeFiles/pkgRedirects/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/GhostEscape/build/CMakeFiles/pkgRedirects/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/VC/vcpackages/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/VC/vcpackages/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/CommonExtensions/Microsoft/TestWindow/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/CommonExtensions/Microsoft/TestWindow/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/MSBuild/Current/Bin/Roslyn/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/MSBuild/Current/Bin/Roslyn/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/x64/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/x64/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/MSBuild/Current/Bin/amd64/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/MSBuild/Current/Bin/amd64/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/Tools/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/Tools/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/LINGO64_18/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/LINGO64_18/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/Git/cmd/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/Git/cmd/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/msys64/mingw64/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/msys64/mingw64/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Trae CN/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Trae CN/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Local/GitHubDesktop/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Local/GitHubDesktop/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Roaming/npm/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Roaming/npm/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Local/Programs/Ollama/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Local/Programs/Ollama/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/CodeBuddy/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/CodeBuddy/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl2/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl2/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl2/cmake/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl2/cmake/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl2/lib/x64/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl2/lib/x64/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl3/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl3/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl3/cmake/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl3/cmake/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl3/lib/x64/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl3/lib/x64/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/glm/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/glm/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/glm/lib/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/glm/lib/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/VC/vcpkg/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/VC/vcpkg/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/SDConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/sd-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-    found: null
-    search_context:
-      ENV{PATH}:
-        - "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
-        - "D:\\vs\\Common7\\IDE\\VC\\VCPackages"
-        - "D:\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "D:\\vs\\MSBuild\\Current\\bin\\Roslyn"
-        - "D:\\vs\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
-        - "D:\\vs\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
-        - "D:\\vs\\Common7\\IDE\\"
-        - "D:\\vs\\Common7\\Tools\\"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "D:\\\ufffd\ufffd\u9f71eb\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u9f56dll"
-        - "C:\\Pro"
-        - "ram Files\\dotnet\\"
-        - "E:\\LINGO64_18\\"
-        - "E:\\Git\\cmd"
-        - "D:\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\msys64\\mingw64\\bin"
-        - "D:\\codelearng\\stool package\\sdl2\\SDL2\\cmake"
-        - "C:\\Program Files\\Git\\cmd"
-        - "d:\\Trae CN\\bin"
-        - "D:\\learning\\Scripts\\"
-        - "D:\\learning\\"
-        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "D:\\\u53fc\ufffd\ufffd?\\Microsoft VS Code\\bin"
-        - "C:\\Users\\Administrator\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
-        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
-        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
-        - "D:\\CodeBuddy\\bin"
-        - "D:\\codelearng\\stool_package\\sdl2"
-        - "D:\\codelearng\\stool_package\\sdl2\\lib\\x64"
-        - "D:\\codelearng\\stool_package\\sdl3"
-        - "D:\\codelearng\\stool_package\\sdl3\\lib\\x64"
-        - "D:\\codelearng\\stool_package\\glm"
-        - "D:\\codelearng\\stool_package\\glm\\lib"
-        - "D:\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "D:\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "D:\\vs\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "D:\\vs\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/Project"
-...
-
----
-events:
   -
     kind: "try_compile-v1"
     backtrace:
       - "D:/codelearng/stool_package/sdl3/cmake/sdlcpu.cmake:93 (try_compile)"
       - "D:/codelearng/stool_package/sdl3/cmake/SDL3ConfigVersion.cmake:32 (SDL_DetectTargetCPUArchitectures)"
-      - "CMakeLists.txt:5 (find_package)"
+      - "CMakeLists.txt:23 (find_package)"
     directories:
       source: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
       binary: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
     cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "SDL_CPU_CHECK_ALL"
@@ -2751,15 +2285,15 @@ events:
       stdout: |
         Change Dir: 'D:/codelearng/GhostEscape/build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_a2f09
-        [1/2] D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a2f09.dir\\SDL_detect_arch.c.obj /FdCMakeFiles\\cmTC_a2f09.dir\\cmTC_a2f09.pdb /FS -c D:\\codelearng\\GhostEscape\\build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_a2f09.lib CMakeFiles\\cmTC_a2f09.dir\\SDL_detect_arch.c.obj && cd ."
+        Run Build Command(s): D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_cd7d6
+        [1/2] D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_cd7d6.dir\\SDL_detect_arch.c.obj /FdCMakeFiles\\cmTC_cd7d6.dir\\cmTC_cd7d6.pdb /FS -c D:\\codelearng\\GhostEscape\\build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_cd7d6.lib CMakeFiles\\cmTC_cd7d6.dir\\SDL_detect_arch.c.obj && cd ."
         
       exitCode: 0
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:5 (find_package)"
+      - "CMakeLists.txt:23 (find_package)"
     name: "SDL3"
     configs:
       -
@@ -2771,7 +2305,7 @@ events:
     version_request:
       exact: false
     settings:
-      required: "optional"
+      required: "required_explicit"
       quiet: false
       global: false
       policy_scope: true
@@ -3024,14 +2558,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/Administrator/AppData/Local/Programs/Ollama/SDL3Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Local/Programs/Ollama/sdl3-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "D:/CodeBuddy/SDL3Config.cmake"
         mode: "config"
         reason: "no_exist"
@@ -3125,20 +2651,16 @@ events:
         - "D:\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "D:\\vs\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
         - "D:\\vs\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/GHOSTESCAPE"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/Project"
-...
-
----
-events:
+        - "C:/Program Files (x86)/GHOSTESCAPE"
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:10 (find_package)"
+      - "CMakeLists.txt:24 (find_package)"
     name: "SDL3_image"
     configs:
       -
@@ -3403,14 +2925,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/Administrator/AppData/Local/Programs/Ollama/SDL3_imageConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Local/Programs/Ollama/sdl3_image-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "D:/CodeBuddy/SDL3_imageConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -3504,20 +3018,16 @@ events:
         - "D:\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "D:\\vs\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
         - "D:\\vs\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/GHOSTESCAPE"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/Project"
-...
-
----
-events:
+        - "C:/Program Files (x86)/GHOSTESCAPE"
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:11 (find_package)"
+      - "CMakeLists.txt:25 (find_package)"
     name: "SDL3_mixer"
     configs:
       -
@@ -3782,14 +3292,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/Administrator/AppData/Local/Programs/Ollama/SDL3_mixerConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Local/Programs/Ollama/sdl3_mixer-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "D:/CodeBuddy/SDL3_mixerConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -3883,16 +3385,16 @@ events:
         - "D:\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "D:\\vs\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
         - "D:\\vs\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/GHOSTESCAPE"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/Project"
+        - "C:/Program Files (x86)/GHOSTESCAPE"
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:12 (find_package)"
+      - "CMakeLists.txt:26 (find_package)"
     name: "SDL3_ttf"
     configs:
       -
@@ -4157,14 +3659,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/Administrator/AppData/Local/Programs/Ollama/SDL3_ttfConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Local/Programs/Ollama/sdl3_ttf-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "D:/CodeBuddy/SDL3_ttfConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -4258,484 +3752,16 @@ events:
         - "D:\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "D:\\vs\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
         - "D:\\vs\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/GHOSTESCAPE"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/Project"
-...
-
----
-events:
+        - "C:/Program Files (x86)/GHOSTESCAPE"
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:13 (find_package)"
-    name: "SDL3_gfx"
-    configs:
-      -
-        filename: "SDL3_gfxConfig.cmake"
-        kind: "cmake"
-      -
-        filename: "sdl3_gfx-config.cmake"
-        kind: "cmake"
-    version_request:
-      exact: false
-    settings:
-      required: "required_explicit"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "SDL3_gfx"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: true
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "D:/codelearng/GhostEscape/build/CMakeFiles/pkgRedirects/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/GhostEscape/build/CMakeFiles/pkgRedirects/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/VC/vcpackages/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/VC/vcpackages/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/CommonExtensions/Microsoft/TestWindow/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/CommonExtensions/Microsoft/TestWindow/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/MSBuild/Current/Bin/Roslyn/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/MSBuild/Current/Bin/Roslyn/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/x64/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/Windows Kits/10/bin/x64/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/MSBuild/Current/Bin/amd64/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/MSBuild/Current/Bin/amd64/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/Tools/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/Tools/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/LINGO64_18/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/LINGO64_18/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/Git/cmd/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/Git/cmd/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/msys64/mingw64/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/msys64/mingw64/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Git/cmd/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Trae CN/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Trae CN/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Local/GitHubDesktop/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Local/GitHubDesktop/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Roaming/npm/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Roaming/npm/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Local/Programs/Ollama/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Local/Programs/Ollama/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/CodeBuddy/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/CodeBuddy/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl2/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl2/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl2/cmake/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl2/cmake/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl2/lib/x64/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl2/lib/x64/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl3/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl3/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl3/cmake/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl3/cmake/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl3/lib/x64/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/sdl3/lib/x64/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/glm/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/glm/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/glm/lib/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/codelearng/stool_package/glm/lib/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/VC/vcpkg/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/vs/VC/vcpkg/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/SDL3_gfxConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/sdl3_gfx-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-    found: null
-    search_context:
-      ENV{PATH}:
-        - "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
-        - "D:\\vs\\Common7\\IDE\\VC\\VCPackages"
-        - "D:\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "D:\\vs\\MSBuild\\Current\\bin\\Roslyn"
-        - "D:\\vs\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
-        - "D:\\vs\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
-        - "D:\\vs\\Common7\\IDE\\"
-        - "D:\\vs\\Common7\\Tools\\"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "D:\\\ufffd\ufffd\u9f71eb\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u9f56dll"
-        - "C:\\Pro"
-        - "ram Files\\dotnet\\"
-        - "E:\\LINGO64_18\\"
-        - "E:\\Git\\cmd"
-        - "D:\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\msys64\\mingw64\\bin"
-        - "D:\\codelearng\\stool package\\sdl2\\SDL2\\cmake"
-        - "C:\\Program Files\\Git\\cmd"
-        - "d:\\Trae CN\\bin"
-        - "D:\\learning\\Scripts\\"
-        - "D:\\learning\\"
-        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "D:\\\u53fc\ufffd\ufffd?\\Microsoft VS Code\\bin"
-        - "C:\\Users\\Administrator\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
-        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
-        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
-        - "D:\\CodeBuddy\\bin"
-        - "D:\\codelearng\\stool_package\\sdl2"
-        - "D:\\codelearng\\stool_package\\sdl2\\lib\\x64"
-        - "D:\\codelearng\\stool_package\\sdl3"
-        - "D:\\codelearng\\stool_package\\sdl3\\lib\\x64"
-        - "D:\\codelearng\\stool_package\\glm"
-        - "D:\\codelearng\\stool_package\\glm\\lib"
-        - "D:\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "D:\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "D:\\vs\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "D:\\vs\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/Project"
-...
-
----
-events:
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "CMakeLists.txt:13 (find_package)"
+      - "CMakeLists.txt:27 (find_package)"
     name: "glm"
     configs:
       -
@@ -5000,14 +4026,6 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/Administrator/AppData/Local/Programs/Ollama/glmConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/Administrator/AppData/Local/Programs/Ollama/glm-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "D:/CodeBuddy/glmConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -5125,227 +4143,10 @@ events:
         - "D:\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
         - "D:\\vs\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
         - "D:\\vs\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/GHOSTESCAPE"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/Project"
-...
-
----
-events:
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.2/Modules/InstallRequiredSystemLibraries.cmake:326 (find_path)"
-      - "CMakeLists.txt:97 (include)"
-    mode: "path"
-    variable: "MSVC_REDIST_DIR"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "x64/Microsoft.VC145.CRT"
-    candidate_directories:
-      - "D:/vs/VC/Tools/MSVC/14.50.35717/include/"
-      - "D:/vs/VC/Auxiliary/VS/include/"
-      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/"
-      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/um/"
-      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/shared/"
-      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/winrt/"
-      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/cppwinrt/"
-      - "D:/vs/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
-      - "D:/vs/Common7/IDE/VC/vcpackages/"
-      - "D:/vs/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "D:/vs/MSBuild/Current/Bin/Roslyn/"
-      - "D:/vs/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
-      - "D:/vs/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
-      - "D:/vs/Common7/IDE/"
-      - "D:/vs/Common7/Tools/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "D:/\ufffd\ufffd\u9f71eb\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u9f56dll/"
-      - "C:/Pro/"
-      - "D:/codelearng/GhostEscape/build/ram Files/dotnet/"
-      - "E:/LINGO64_18/"
-      - "E:/Git/cmd/"
-      - "D:/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/msys64/mingw64/bin/"
-      - "D:/codelearng/stool package/sdl2/SDL2/cmake/"
-      - "C:/Program Files/Git/cmd/"
-      - "D:/Trae CN/bin/"
-      - "D:/learning/Scripts/"
-      - "D:/learning/"
-      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
-      - "D:/\u53fc\ufffd\ufffd?/Microsoft VS Code/bin/"
-      - "C:/Users/Administrator/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Users/Administrator/AppData/Roaming/npm/"
-      - "C:/Users/Administrator/AppData/Local/Programs/Ollama/"
-      - "D:/CodeBuddy/bin/"
-      - "D:/codelearng/stool_package/sdl2/"
-      - "D:/codelearng/stool_package/sdl2/lib/x64/"
-      - "D:/codelearng/stool_package/sdl3/"
-      - "D:/codelearng/stool_package/sdl3/lib/x64/"
-      - "D:/codelearng/stool_package/glm/"
-      - "D:/codelearng/stool_package/glm/lib/"
-      - "D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
-      - "D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
-      - "D:/vs/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
-      - "D:/vs/VC/vcpkg/"
-      - "C:/Program Files/include/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/include/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/include/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/Project/include/"
-      - "C:/Program Files (x86)/Project/"
-      - "D:/vs/VC/Redist/MSVC/v145/"
-      - "D:/vs/VC/Redist/MSVC/14.50.35710/"
-      - "D:/vs/VC/Redist/MSVC/14.44.35112/"
-    searched_directories:
-      - "D:/vs/VC/Tools/MSVC/14.50.35717/include/x64/Microsoft.VC145.CRT"
-      - "D:/vs/VC/Auxiliary/VS/include/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/um/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/shared/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/winrt/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/cppwinrt/x64/Microsoft.VC145.CRT"
-      - "D:/vs/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/x64/Microsoft.VC145.CRT"
-      - "D:/vs/Common7/IDE/VC/vcpackages/x64/Microsoft.VC145.CRT"
-      - "D:/vs/Common7/IDE/CommonExtensions/Microsoft/TestWindow/x64/Microsoft.VC145.CRT"
-      - "D:/vs/MSBuild/Current/Bin/Roslyn/x64/Microsoft.VC145.CRT"
-      - "D:/vs/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x64/x64/Microsoft.VC145.CRT"
-      - "D:/vs/MSBuild/Current/Bin/amd64/x64/Microsoft.VC145.CRT"
-      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/x64/Microsoft.VC145.CRT"
-      - "D:/vs/Common7/IDE/x64/Microsoft.VC145.CRT"
-      - "D:/vs/Common7/Tools/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/x64/Microsoft.VC145.CRT"
-      - "C:/Windows/System32/x64/Microsoft.VC145.CRT"
-      - "C:/Windows/x64/Microsoft.VC145.CRT"
-      - "C:/Windows/System32/wbem/x64/Microsoft.VC145.CRT"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/x64/Microsoft.VC145.CRT"
-      - "D:/\ufffd\ufffd\u9f71eb\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u9f56dll/x64/Microsoft.VC145.CRT"
-      - "C:/Pro/x64/Microsoft.VC145.CRT"
-      - "D:/codelearng/GhostEscape/build/ram Files/dotnet/x64/Microsoft.VC145.CRT"
-      - "E:/LINGO64_18/x64/Microsoft.VC145.CRT"
-      - "E:/Git/cmd/x64/Microsoft.VC145.CRT"
-      - "D:/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files/CMake/bin/x64/Microsoft.VC145.CRT"
-      - "C:/msys64/mingw64/bin/x64/Microsoft.VC145.CRT"
-      - "D:/codelearng/stool package/sdl2/SDL2/cmake/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files/Git/cmd/x64/Microsoft.VC145.CRT"
-      - "D:/Trae CN/bin/x64/Microsoft.VC145.CRT"
-      - "D:/learning/Scripts/x64/Microsoft.VC145.CRT"
-      - "D:/learning/x64/Microsoft.VC145.CRT"
-      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/x64/Microsoft.VC145.CRT"
-      - "D:/\u53fc\ufffd\ufffd?/Microsoft VS Code/bin/x64/Microsoft.VC145.CRT"
-      - "C:/Users/Administrator/AppData/Local/GitHubDesktop/bin/x64/Microsoft.VC145.CRT"
-      - "C:/Users/Administrator/AppData/Roaming/npm/x64/Microsoft.VC145.CRT"
-      - "C:/Users/Administrator/AppData/Local/Programs/Ollama/x64/Microsoft.VC145.CRT"
-      - "D:/CodeBuddy/bin/x64/Microsoft.VC145.CRT"
-      - "D:/codelearng/stool_package/sdl2/x64/Microsoft.VC145.CRT"
-      - "D:/codelearng/stool_package/sdl2/lib/x64/x64/Microsoft.VC145.CRT"
-      - "D:/codelearng/stool_package/sdl3/x64/Microsoft.VC145.CRT"
-      - "D:/codelearng/stool_package/sdl3/lib/x64/x64/Microsoft.VC145.CRT"
-      - "D:/codelearng/stool_package/glm/x64/Microsoft.VC145.CRT"
-      - "D:/codelearng/stool_package/glm/lib/x64/Microsoft.VC145.CRT"
-      - "D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/x64/Microsoft.VC145.CRT"
-      - "D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/x64/Microsoft.VC145.CRT"
-      - "D:/vs/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/x64/Microsoft.VC145.CRT"
-      - "D:/vs/VC/vcpkg/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files/include/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files (x86)/include/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files (x86)/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files/CMake/include/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files/CMake/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files (x86)/Project/include/x64/Microsoft.VC145.CRT"
-      - "C:/Program Files (x86)/Project/x64/Microsoft.VC145.CRT"
-      - "D:/vs/VC/Redist/MSVC/v145/x64/Microsoft.VC145.CRT"
-    found: "D:/vs/VC/Redist/MSVC/14.50.35710/"
-    search_context:
-      ENV{PATH}:
-        - "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
-        - "D:\\vs\\Common7\\IDE\\VC\\VCPackages"
-        - "D:\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "D:\\vs\\MSBuild\\Current\\bin\\Roslyn"
-        - "D:\\vs\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64"
-        - "D:\\vs\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
-        - "D:\\vs\\Common7\\IDE\\"
-        - "D:\\vs\\Common7\\Tools\\"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "D:\\\ufffd\ufffd\u9f71eb\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u9f56dll"
-        - "C:\\Pro"
-        - "ram Files\\dotnet\\"
-        - "E:\\LINGO64_18\\"
-        - "E:\\Git\\cmd"
-        - "D:\\"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\msys64\\mingw64\\bin"
-        - "D:\\codelearng\\stool package\\sdl2\\SDL2\\cmake"
-        - "C:\\Program Files\\Git\\cmd"
-        - "d:\\Trae CN\\bin"
-        - "D:\\learning\\Scripts\\"
-        - "D:\\learning\\"
-        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "D:\\\u53fc\ufffd\ufffd?\\Microsoft VS Code\\bin"
-        - "C:\\Users\\Administrator\\AppData\\Local\\GitHubDesktop\\bin"
-        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
-        - "C:\\Users\\Administrator\\AppData\\Roaming\\npm"
-        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Ollama"
-        - "D:\\CodeBuddy\\bin"
-        - "D:\\codelearng\\stool_package\\sdl2"
-        - "D:\\codelearng\\stool_package\\sdl2\\lib\\x64"
-        - "D:\\codelearng\\stool_package\\sdl3"
-        - "D:\\codelearng\\stool_package\\sdl3\\lib\\x64"
-        - "D:\\codelearng\\stool_package\\glm"
-        - "D:\\codelearng\\stool_package\\glm\\lib"
-        - "D:\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "D:\\vs\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "D:\\vs\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "D:\\vs\\VC\\vcpkg"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Project"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/Project"
-      ENV{INCLUDE}:
-        - "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\include"
-        - "D:\\vs\\VC\\Auxiliary\\VS\\include"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+        - "C:/Program Files (x86)/GHOSTESCAPE"
 ...

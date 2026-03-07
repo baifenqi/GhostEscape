@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "GHOSTESCAPE (Debug)", // 调试配置名称，随便起
+            "type": "cppvsdbg", // Windows + MSVC 调试器（必选）
+            "request": "launch",
+            // 可执行文件的路径（替换成你的 build 目录路径）
+            "program": "${workspaceFolder}/build/bin/Debug/GHOSTESCAPE.exe",
+            "args": [], // 运行参数（无则留空）
+            "stopAtEntry": false, // 是否在程序入口处暂停（新手设为 false）
+            // 核心！强制工作目录为项目根目录
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                 {"name": "PYTHONIOENCODING", "value": "UTF-8"},
+                {"name": "LC_ALL", "value": "zh_CN.UTF-8"}
+            ],
+            "console": "integratedTerminal",
+            "externalConsole": false, // 是否弹出控制台窗口（建议设为 true，方便看日志）
+            "preLaunchTask": "CMake: build", // 运行前先编译（可选，建议加）
+            
+        }
+    ]
+}

@@ -9,18 +9,17 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-
 # 设置输出目录
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin/$<CONFIG>")
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib/$<CONFIG>")
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib/$<CONFIG>")
 
-# 支持多配置生成器（如Visual Studio）
+# 支持多配置生成器（如 Visual Studio）
 if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
     set(CMAKE_BUILD_TYPE Release CACHE STRING "Choose the type of build." FORCE)
 endif()
 
-# 查找所需的SDL3相关库
+# 查找所需的 SDL3 相关库
 find_package(SDL3 REQUIRED)
 find_package(SDL3_image REQUIRED)
 find_package(SDL3_mixer REQUIRED)
@@ -31,21 +30,29 @@ find_package(glm REQUIRED)
 add_executable(GHOSTESCAPE
     src/main.cpp
     src/core/Game.cpp
-    src/SceneMain.cpp
+    src/core/Scene.cpp
+    src/core/Object.cpp    
     src/core/ObjectWorld.cpp
+    src/core/ObjectAffiliate.cpp
+    src/core/Asset_store.cpp
+    src/SceneMain.cpp
     src/Player.cpp
-    src/core/Scene.cpp    
+    src/affiliate/Sprite.cpp
+    src/affiliate/SpriteAnim.cpp   
 )
+
+# 全局编译选项：MSVC UTF-8 支持
+if(MSVC)
+    add_compile_options(/utf-8)
+endif()
 
 # 根据编译器类型设置编译选项
 if(CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
-    # MSVC 编译选项
-    target_compile_options(GHOSTESCAPE PRIVATE "/utf-8"
+    target_compile_options(GHOSTESCAPE PRIVATE 
         $<$<CONFIG:Debug>:/W4 /Od /Zi>
         $<$<CONFIG:Release>:/O2 /DNDEBUG>
     )
 elseif(CMAKE_CXX_COMPILER_ID STREQUAL "GNU" OR CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
-    # GCC/Clang 编译选项
     target_compile_options(GHOSTESCAPE PRIVATE
         $<$<CONFIG:Debug>:-g -O0 -Wall -Wextra>
         $<$<CONFIG:Release>:-O3 -DNDEBUG>
@@ -70,13 +77,6 @@ target_link_libraries(GHOSTESCAPE PRIVATE
     glm::glm
 )
 
-# 处理资源文件（将resources目录下的文件复制到输出目录）
-file(GLOB_RECURSE RESOURCES "resources/*")
-foreach(RESOURCE ${RESOURCES})
-    get_filename_component(RESOURCE_NAME ${RESOURCE} NAME)
-    configure_file(${RESOURCE} ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${RESOURCE_NAME} COPYONLY)
-endforeach()
-
 # 跨平台适配
 if(WIN32)
     target_compile_definitions(GHOSTESCAPE PRIVATE PLATFORM_WINDOWS)
@@ -85,3 +85,16 @@ elseif(APPLE)
 elseif(UNIX)
     target_compile_definitions(GHOSTESCAPE PRIVATE PLATFORM_LINUX)
 endif()
+
+# 设置调试工作区目录
+set_target_properties(GHOSTESCAPE PROPERTIES
+    VS_DEBUG_WORKING_DIRECTORY "${PROJECT_SOURCE_DIR}"
+)
+
+# 复制 assets 到可执行文件所在目录
+add_custom_command(TARGET GHOSTESCAPE POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory_if_different
+    ${PROJECT_SOURCE_DIR}/assets
+    $<TARGET_FILE_DIR:GHOSTESCAPE>/assets
+    COMMENT "Copying assets to build directory..."
+)

@@ -2166,8 +2166,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-vha0dv"
-      binary: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-vha0dv"
+      source: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-yfb8f1"
+      binary: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-yfb8f1"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2176,11 +2176,11 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-vha0dv'
+        Change Dir: 'D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-yfb8f1'
         
-        Run Build Command(s): D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_037bf
-        [1/2] D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_037bf.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_037bf.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_037bf.dir --rc=C:\\PROGRA~2\\WINDOW~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WINDOW~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_037bf.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_037bf.exe /implib:cmTC_037bf.lib /pdb:cmTC_037bf.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_0c2b8
+        [1/2] D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_0c2b8.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_0c2b8.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_0c2b8.dir --rc=C:\\PROGRA~2\\WINDOW~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WINDOW~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0c2b8.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_0c2b8.exe /implib:cmTC_0c2b8.lib /pdb:cmTC_0c2b8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -2220,8 +2220,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-8aqn4b"
-      binary: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-8aqn4b"
+      source: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-f5kaey"
+      binary: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-f5kaey"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2231,11 +2231,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-8aqn4b'
+        Change Dir: 'D:/codelearng/GhostEscape/build/CMakeFiles/CMakeScratch/TryCompile-f5kaey'
         
-        Run Build Command(s): D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_768c4
-        [1/2] D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_MBCS  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_768c4.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_768c4.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_768c4.dir --rc=C:\\PROGRA~2\\WINDOW~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WINDOW~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_768c4.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_768c4.exe /implib:cmTC_768c4.lib /pdb:cmTC_768c4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_9e7c4
+        [1/2] D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_MBCS  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_9e7c4.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_9e7c4.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_9e7c4.dir --rc=C:\\PROGRA~2\\WINDOW~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WINDOW~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9e7c4.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_9e7c4.exe /implib:cmTC_9e7c4.lib /pdb:cmTC_9e7c4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -2271,7 +2271,7 @@ events:
     backtrace:
       - "D:/codelearng/stool_package/sdl3/cmake/sdlcpu.cmake:93 (try_compile)"
       - "D:/codelearng/stool_package/sdl3/cmake/SDL3ConfigVersion.cmake:32 (SDL_DetectTargetCPUArchitectures)"
-      - "CMakeLists.txt:23 (find_package)"
+      - "CMakeLists.txt:28 (find_package)"
     directories:
       source: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
       binary: "D:/codelearng/GhostEscape/build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
@@ -2285,15 +2285,15 @@ events:
       stdout: |
         Change Dir: 'D:/codelearng/GhostEscape/build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_cd7d6
-        [1/2] D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_cd7d6.dir\\SDL_detect_arch.c.obj /FdCMakeFiles\\cmTC_cd7d6.dir\\cmTC_cd7d6.pdb /FS -c D:\\codelearng\\GhostEscape\\build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_cd7d6.lib CMakeFiles\\cmTC_cd7d6.dir\\SDL_detect_arch.c.obj && cd ."
+        Run Build Command(s): D:/vs/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_7e8fd
+        [1/2] D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_7e8fd.dir\\SDL_detect_arch.c.obj /FdCMakeFiles\\cmTC_7e8fd.dir\\cmTC_7e8fd.pdb /FS -c D:\\codelearng\\GhostEscape\\build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_7e8fd.lib CMakeFiles\\cmTC_7e8fd.dir\\SDL_detect_arch.c.obj && cd ."
         
       exitCode: 0
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:23 (find_package)"
+      - "CMakeLists.txt:28 (find_package)"
     name: "SDL3"
     configs:
       -
@@ -2660,7 +2660,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:24 (find_package)"
+      - "CMakeLists.txt:29 (find_package)"
     name: "SDL3_image"
     configs:
       -
@@ -3027,7 +3027,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:25 (find_package)"
+      - "CMakeLists.txt:30 (find_package)"
     name: "SDL3_mixer"
     configs:
       -
@@ -3394,7 +3394,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:26 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     name: "SDL3_ttf"
     configs:
       -
@@ -3761,7 +3761,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:27 (find_package)"
+      - "CMakeLists.txt:32 (find_package)"
     name: "glm"
     configs:
       -

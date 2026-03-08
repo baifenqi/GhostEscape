@@ -3,10 +3,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "D:/codelearng/stool_package/sdl3/bin/wavpackdll.dll"
+			"path" : "D:/codelearng/stool_package/sdl3/bin/gme.dll"
 		},
 		{
-			"path" : "SDL3_mixer::WavPack-NOTFOUND"
+			"path" : "SDL3_mixer::gme_shared-NOTFOUND"
 		}
 	],
 	"backtrace" : 5,
@@ -32,7 +32,7 @@
 			{
 				"command" : 2,
 				"file" : 2,
-				"line" : 25,
+				"line" : 30,
 				"parent" : 0
 			},
 			{
@@ -52,7 +52,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 103,
+				"line" : 89,
 				"parent" : 4
 			}
 		]
@@ -62,11 +62,11 @@
 		"major" : 2,
 		"minor" : 9
 	},
-	"id" : "SDL3_mixer::WavPack::@6890427a1f51a3e7e1df",
+	"id" : "SDL3_mixer::gme_shared::@6890427a1f51a3e7e1df",
 	"imported" : true,
 	"local" : true,
-	"name" : "SDL3_mixer::WavPack",
-	"nameOnDisk" : "wavpackdll.dll",
+	"name" : "SDL3_mixer::gme_shared",
+	"nameOnDisk" : "gme.dll",
 	"paths" : 
 	{
 		"build" : ".",

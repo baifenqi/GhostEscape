@@ -3,10 +3,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "D:/codelearng/stool_package/sdl3/bin/SDL3_mixer.dll"
+			"path" : "D:/codelearng/stool_package/sdl3/bin/wavpackdll.dll"
 		},
 		{
-			"path" : "D:/codelearng/stool_package/sdl3/lib/SDL3_mixer.lib"
+			"path" : "SDL3_mixer::WavPack-NOTFOUND"
 		}
 	],
 	"backtrace" : 5,
@@ -16,8 +16,7 @@
 		[
 			"add_library",
 			"include",
-			"find_package",
-			"set_target_properties"
+			"find_package"
 		],
 		"files" : 
 		[
@@ -33,7 +32,7 @@
 			{
 				"command" : 2,
 				"file" : 2,
-				"line" : 25,
+				"line" : 30,
 				"parent" : 0
 			},
 			{
@@ -53,13 +52,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 57,
-				"parent" : 4
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 59,
+				"line" : 103,
 				"parent" : 4
 			}
 		]
@@ -69,25 +62,11 @@
 		"major" : 2,
 		"minor" : 9
 	},
-	"id" : "SDL3_mixer::SDL3_mixer-shared::@6890427a1f51a3e7e1df",
+	"id" : "SDL3_mixer::WavPack::@6890427a1f51a3e7e1df",
 	"imported" : true,
-	"interfaceCompileDependencies" : 
-	[
-		{
-			"backtrace" : 6,
-			"id" : "SDL3::Headers::@6890427a1f51a3e7e1df"
-		}
-	],
-	"interfaceLinkLibraries" : 
-	[
-		{
-			"backtrace" : 6,
-			"id" : "SDL3::Headers::@6890427a1f51a3e7e1df"
-		}
-	],
 	"local" : true,
-	"name" : "SDL3_mixer::SDL3_mixer-shared",
-	"nameOnDisk" : "SDL3_mixer.dll",
+	"name" : "SDL3_mixer::WavPack",
+	"nameOnDisk" : "wavpackdll.dll",
 	"paths" : 
 	{
 		"build" : ".",

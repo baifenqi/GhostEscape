@@ -1,68 +1,86 @@
 [
 {
   "directory": "D:/codelearng/GhostEscape/build",
-  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\main.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\main.cpp",
+  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\main.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\main.cpp",
   "file": "D:/codelearng/GhostEscape/src/main.cpp",
   "output": "D:/codelearng/GhostEscape/build/CMakeFiles/GHOSTESCAPE.dir/src/main.cpp.obj"
 },
 {
   "directory": "D:/codelearng/GhostEscape/build",
-  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\core\\Game.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\core\\Game.cpp",
+  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\core\\Game.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\core\\Game.cpp",
   "file": "D:/codelearng/GhostEscape/src/core/Game.cpp",
   "output": "D:/codelearng/GhostEscape/build/CMakeFiles/GHOSTESCAPE.dir/src/core/Game.cpp.obj"
 },
 {
   "directory": "D:/codelearng/GhostEscape/build",
-  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\core\\Scene.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\core\\Scene.cpp",
+  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\core\\Scene.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\core\\Scene.cpp",
   "file": "D:/codelearng/GhostEscape/src/core/Scene.cpp",
   "output": "D:/codelearng/GhostEscape/build/CMakeFiles/GHOSTESCAPE.dir/src/core/Scene.cpp.obj"
 },
 {
   "directory": "D:/codelearng/GhostEscape/build",
-  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\core\\Object.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\core\\Object.cpp",
+  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\core\\Object.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\core\\Object.cpp",
   "file": "D:/codelearng/GhostEscape/src/core/Object.cpp",
   "output": "D:/codelearng/GhostEscape/build/CMakeFiles/GHOSTESCAPE.dir/src/core/Object.cpp.obj"
 },
 {
   "directory": "D:/codelearng/GhostEscape/build",
-  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\core\\ObjectWorld.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\core\\ObjectWorld.cpp",
+  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\core\\ObjectWorld.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\core\\ObjectWorld.cpp",
   "file": "D:/codelearng/GhostEscape/src/core/ObjectWorld.cpp",
   "output": "D:/codelearng/GhostEscape/build/CMakeFiles/GHOSTESCAPE.dir/src/core/ObjectWorld.cpp.obj"
 },
 {
   "directory": "D:/codelearng/GhostEscape/build",
-  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\core\\ObjectAffiliate.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\core\\ObjectAffiliate.cpp",
+  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\core\\ObjectAffiliate.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\core\\ObjectAffiliate.cpp",
   "file": "D:/codelearng/GhostEscape/src/core/ObjectAffiliate.cpp",
   "output": "D:/codelearng/GhostEscape/build/CMakeFiles/GHOSTESCAPE.dir/src/core/ObjectAffiliate.cpp.obj"
 },
 {
   "directory": "D:/codelearng/GhostEscape/build",
-  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\core\\Asset_store.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\core\\Asset_store.cpp",
+  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\core\\Actor.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\core\\Actor.cpp",
+  "file": "D:/codelearng/GhostEscape/src/core/Actor.cpp",
+  "output": "D:/codelearng/GhostEscape/build/CMakeFiles/GHOSTESCAPE.dir/src/core/Actor.cpp.obj"
+},
+{
+  "directory": "D:/codelearng/GhostEscape/build",
+  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\core\\Asset_store.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\core\\Asset_store.cpp",
   "file": "D:/codelearng/GhostEscape/src/core/Asset_store.cpp",
   "output": "D:/codelearng/GhostEscape/build/CMakeFiles/GHOSTESCAPE.dir/src/core/Asset_store.cpp.obj"
 },
 {
   "directory": "D:/codelearng/GhostEscape/build",
-  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\SceneMain.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\SceneMain.cpp",
-  "file": "D:/codelearng/GhostEscape/src/SceneMain.cpp",
-  "output": "D:/codelearng/GhostEscape/build/CMakeFiles/GHOSTESCAPE.dir/src/SceneMain.cpp.obj"
-},
-{
-  "directory": "D:/codelearng/GhostEscape/build",
-  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\Player.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\Player.cpp",
-  "file": "D:/codelearng/GhostEscape/src/Player.cpp",
-  "output": "D:/codelearng/GhostEscape/build/CMakeFiles/GHOSTESCAPE.dir/src/Player.cpp.obj"
-},
-{
-  "directory": "D:/codelearng/GhostEscape/build",
-  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\affiliate\\Sprite.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\affiliate\\Sprite.cpp",
+  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\affiliate\\Sprite.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\affiliate\\Sprite.cpp",
   "file": "D:/codelearng/GhostEscape/src/affiliate/Sprite.cpp",
   "output": "D:/codelearng/GhostEscape/build/CMakeFiles/GHOSTESCAPE.dir/src/affiliate/Sprite.cpp.obj"
 },
 {
   "directory": "D:/codelearng/GhostEscape/build",
-  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\affiliate\\SpriteAnim.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\affiliate\\SpriteAnim.cpp",
+  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\affiliate\\SpriteAnim.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\affiliate\\SpriteAnim.cpp",
   "file": "D:/codelearng/GhostEscape/src/affiliate/SpriteAnim.cpp",
   "output": "D:/codelearng/GhostEscape/build/CMakeFiles/GHOSTESCAPE.dir/src/affiliate/SpriteAnim.cpp.obj"
+},
+{
+  "directory": "D:/codelearng/GhostEscape/build",
+  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\affiliate\\Collider.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\affiliate\\Collider.cpp",
+  "file": "D:/codelearng/GhostEscape/src/affiliate/Collider.cpp",
+  "output": "D:/codelearng/GhostEscape/build/CMakeFiles/GHOSTESCAPE.dir/src/affiliate/Collider.cpp.obj"
+},
+{
+  "directory": "D:/codelearng/GhostEscape/build",
+  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\SceneMain.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\SceneMain.cpp",
+  "file": "D:/codelearng/GhostEscape/src/SceneMain.cpp",
+  "output": "D:/codelearng/GhostEscape/build/CMakeFiles/GHOSTESCAPE.dir/src/SceneMain.cpp.obj"
+},
+{
+  "directory": "D:/codelearng/GhostEscape/build",
+  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\Player.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\Player.cpp",
+  "file": "D:/codelearng/GhostEscape/src/Player.cpp",
+  "output": "D:/codelearng/GhostEscape/build/CMakeFiles/GHOSTESCAPE.dir/src/Player.cpp.obj"
+},
+{
+  "directory": "D:/codelearng/GhostEscape/build",
+  "command": "D:\\vs\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DPLATFORM_WINDOWS -ID:\\codelearng\\GhostEscape\\include -external:ID:\\codelearng\\stool_package\\sdl3\\include -external:ID:\\codelearng\\stool_package\\sdl3\\cmake\\..\\include -external:ID:\\codelearng\\stool_package\\glm\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /W4 /Od /Zi /FoCMakeFiles\\GHOSTESCAPE.dir\\src\\Enemy.cpp.obj /FdCMakeFiles\\GHOSTESCAPE.dir\\ /FS -c D:\\codelearng\\GhostEscape\\src\\Enemy.cpp",
+  "file": "D:/codelearng/GhostEscape/src/Enemy.cpp",
+  "output": "D:/codelearng/GhostEscape/build/CMakeFiles/GHOSTESCAPE.dir/src/Enemy.cpp.obj"
 }
 ]

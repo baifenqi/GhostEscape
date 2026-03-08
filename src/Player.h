@@ -7,6 +7,7 @@
  * 2. 管理两种精灵动画（idle/move）
  * 3. 根据速度自动切换动画状态
  * 4. 控制摄像机跟随玩家
+ * 5. 管理碰撞检测组件
  * 
  * 【物理属性】
  * - 最大速度：600 像素/秒
@@ -18,8 +19,13 @@
  * - move 动画：移动时播放
  * - 自动根据速度切换
  * 
+ * 【碰撞系统】
+ * - collider_: 圆形碰撞体
+ * - 用于检测与敌人的碰撞
+ * - 调试模式下可视化
+ * 
  * 【继承体系】
- * Object -> ObjectScreen -> ObjectWorld -> Actor -> Player
+ * Object → ObjectScreen → ObjectWorld → Actor → Player
  */
 
 #ifndef PLAYER_H
@@ -27,6 +33,8 @@
 
 #include "core/Actor.h"
 #include "Affiliate/SpriteAnim.h"
+
+class Collider;  // 前向声明：碰撞体类
 
 /**
  * @class Player
@@ -38,11 +46,17 @@
  * 3. 精灵动画自动切换（idle/move）
  * 4. 摄像机自动跟随
  * 5. 边界限制（不超出世界范围）
+ * 6. 碰撞检测（通过 Collider 组件）
  * 
  * 【动画组件】
  * - sprite_idle_: 静止状态的精灵动画
  * - sprite_move_: 移动状态的精灵动画
  * - is_moving_: 当前是否在移动的标记
+ * 
+ * 【碰撞组件】
+ * - collider_: 圆形碰撞体指针
+ * - 尺寸基于精灵动画
+ * - 中心锚点对齐
  * 
  * 【关键方法】
  * - keyboardControl(): 读取键盘输入并施加加速度
@@ -52,9 +66,11 @@
  */
 class Player : public Actor{
 private:
-    SpriteAnim* sprite_idle_ = nullptr;  ///< 静止动画精灵
-    SpriteAnim* sprite_move_ = nullptr;  ///< 移动动画精灵
-    bool is_moving_ = false;             ///< 移动状态标志
+    SpriteAnim* sprite_idle_ = nullptr;   ///< 静止动画精灵
+    SpriteAnim* sprite_move_ = nullptr;   ///< 移动动画精灵
+    bool is_moving_ = false;              ///< 移动状态标志
+    
+    Collider* collider_ = nullptr;        ///< 碰撞体组件：用于物理检测
 
 public:
     /**
@@ -66,6 +82,12 @@ public:
      * 3. 创建 idle 动画精灵（ghost-idle.png，2 倍缩放）
      * 4. 创建 move 动画精灵（ghost-move.png，2 倍缩放）
      * 5. 初始隐藏 move 动画（只显示 idle）
+     * 6. 创建圆形碰撞体（基于动画尺寸）
+     * 7. 输出调试日志（尺寸、锚点等信息）
+     * 
+     * 【资源路径】
+     * - assets/sprite/ghost-idle.png
+     * - assets/sprite/ghost-move.png
      */
     virtual void init() override;
 
@@ -99,6 +121,7 @@ public:
      * 【当前实现】
      * 调用 Actor::render()
      * 实际渲染由活跃的精灵动画完成
+     * 碰撞体在 DEBUG_MODE 下可见
      */
     virtual void render() override;
 
@@ -106,7 +129,7 @@ public:
      * @brief 清理玩家资源
      * 
      * 【清理内容】
-     * 调用 Actor::clean() 清理子对象（精灵动画）
+     * 调用 Actor::clean() 清理子对象（精灵动画、碰撞体）
      */
     virtual void clean() override;
 
@@ -168,17 +191,23 @@ public:
      * @param is_moving true=移动状态，false=静止状态
      * 
      * 【切换逻辑】
-     * - 移动时：
-     *   - 激活 move 动画，停用 idle 动画
-     *   - 同步帧索引和计时器（保持动画连续性）
-     * - 静止时：
-     *   - 激活 idle 动画，停用 move 动画
-     *   - 同步帧索引和计时器
+     * - 移动时：激活 move 动画，停用 idle 动画
+     * - 静止时：激活 idle 动画，停用 move 动画
+     * - 同步帧索引和计时器（保持动画连续性）
      * 
      * 【设计意图】
      * 动画切换时保持帧同步，避免视觉跳跃
      */
     void changeState(bool is_moving);
+    
+    /**
+     * @brief 获取碰撞体指针
+     * @return Collider* 碰撞体组件
+     * 
+     * 【用途】
+     * 供其他对象（如 Enemy）进行碰撞检测
+     */
+    Collider* getCollider() { return collider_; }
 };
 
 #endif //PLAYER_H

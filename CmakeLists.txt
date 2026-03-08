@@ -9,6 +9,11 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
+# 设置 UTF-8 编码支持（必须在 add_executable 之前）
+if(MSVC)
+    add_compile_options(/utf-8)
+endif()
+
 # 设置输出目录
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin/$<CONFIG>")
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib/$<CONFIG>")
@@ -31,24 +36,25 @@ add_executable(GHOSTESCAPE
     src/main.cpp
     src/core/Game.cpp
     src/core/Scene.cpp
-    src/core/Object.cpp    
+    src/core/Object.cpp
     src/core/ObjectWorld.cpp
     src/core/ObjectAffiliate.cpp
+    src/core/Actor.cpp
     src/core/Asset_store.cpp
+
+    src/affiliate/Sprite.cpp
+    src/affiliate/SpriteAnim.cpp
+    src/affiliate/Collider.cpp
+
     src/SceneMain.cpp
     src/Player.cpp
-    src/affiliate/Sprite.cpp
-    src/affiliate/SpriteAnim.cpp   
+    src/Enemy.cpp
 )
 
-# 全局编译选项：MSVC UTF-8 支持
-if(MSVC)
-    add_compile_options(/utf-8)
-endif()
-
 # 根据编译器类型设置编译选项
+# 注意：UTF-8 已经通过 add_compile_options(/utf-8) 全局设置，此处不再重复
 if(CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
-    target_compile_options(GHOSTESCAPE PRIVATE 
+    target_compile_options(GHOSTESCAPE PRIVATE
         $<$<CONFIG:Debug>:/W4 /Od /Zi>
         $<$<CONFIG:Release>:/O2 /DNDEBUG>
     )

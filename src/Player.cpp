@@ -9,31 +9,74 @@
 #include "Player.h"
 #include "core/Scene.h"
 #include "Affiliate/SpriteAnim.h"
+#include "Affiliate/Collider.h"
 
 /**
  * @brief 初始化玩家对象
  * 
  * 【初始化流程】
- * 1. 调用 Actor::init() 设置对象类型为 OBJECT_WORLD
- * 2. 设置最大速度为 600 像素/秒（较快的移动速度）
- * 3. 创建 idle 动画精灵：
- *    - 图片路径："assets/sprite/ghost-idle.png"
- *    - 缩放比例：2.0 倍
- *    - 作为子对象添加到玩家
- * 4. 创建 move 动画精灵：
- *    - 图片路径："assets/sprite/ghost-move.png"
- *    - 缩放比例：2.0 倍
- *    - 作为子对象添加到玩家
- * 5. 初始停用 move 动画（只显示 idle 状态）
  * 
- * 【资源加载】
- * SpriteAnim::addSpriteAnimChild() 会自动：
- * - 加载纹理
- * - 计算总帧数（图片宽度 / 高度）
- * - 设置父对象关系
+ * 1. **输出调试日志**
+ *    ```cpp
+ *    SDL_Log("=== PLAYER INIT START ===");
+ *    ```
+ * 
+ * 2. **调用父类初始化**
+ *    ```cpp
+ *    Actor::init();
+ *    ```
+ *    - 设置类型为 OBJECT_WORLD
+ * 
+ * 3. **设置最大速度**
+ *    ```cpp
+ *    max_speed_ = 600.0f;
+ *    ```
+ *    - 600 像素/秒的快速移动
+ * 
+ * 4. **创建 idle 动画精灵**
+ *    ```cpp
+ *    sprite_idle_ = SpriteAnim::addSpriteAnimChild(this, "assets/sprite/ghost-idle.png", 2.0f);
+ *    ```
+ *    - 路径：assets/sprite/ghost-idle.png
+ *    - 缩放：2.0 倍
+ * 
+ * 5. **创建 move 动画精灵**
+ *    ```cpp
+ *    sprite_move_ = SpriteAnim::addSpriteAnimChild(this, "assets/sprite/ghost-move.png", 2.0f);
+ *    sprite_move_->setActive(false);  // 初始隐藏
+ *    ```
+ * 
+ * 6. **创建碰撞体**
+ *    ```cpp
+ *    glm::vec2 scaled_size = sprite_idle_->getSize();
+ *    Anchor anchor = sprite_idle_->getAnchor();
+ *    collider_ = Collider::addColliderChild(this, scaled_size, Collider::Type::CIRCLE, anchor);
+ *    ```
+ *    - 使用动画的缩放后尺寸
+ *    - 圆形碰撞体
+ *    - 中心锚点对齐
+ * 
+ * 7. **输出详细调试信息**
+ *    ```cpp
+ *    SDL_Log("PLAYER: sprite_idle size: %.2f x %.2f, anchor: %d", ...);
+ *    SDL_Log("PLAYER: collider size: %.2f x %.2f", ...);
+ *    SDL_Log("=== PLAYER INIT END ===");
+ *    ```
+ * 
+ * 【资源需求】
+ * 必须存在以下文件：
+ * - assets/sprite/ghost-idle.png
+ * - assets/sprite/ghost-move.png
+ * 
+ * 【注意事项】
+ * - 必须调用 init() 才能正常初始化
+ * - 碰撞体尺寸基于动画尺寸，确保视觉与物理一致
  */
 void Player::init()
 {
+    // 输出调试日志开始
+    SDL_Log("=== PLAYER INIT START ===");
+    
     // 调用父类初始化函数
     Actor::init();
     
@@ -48,6 +91,24 @@ void Player::init()
     
     // 初始隐藏移动动画，只显示静止动画
     sprite_move_->setActive(false);
+
+    // 获取动画的缩放后尺寸和锚点（用于创建碰撞体）
+    glm::vec2 scaled_size = sprite_idle_->getSize();
+    Anchor anchor = sprite_idle_->getAnchor();
+
+    // 输出动画尺寸调试信息
+    SDL_Log("PLAYER: sprite_idle size: %.2f x %.2f, anchor: %d", 
+            scaled_size.x, scaled_size.y, static_cast<int>(anchor));
+
+    // 使用缩放后的尺寸创建圆形碰撞体
+    collider_ = Collider::addColliderChild(this, scaled_size, Collider::Type::CIRCLE, anchor);
+    
+    // 输出碰撞体尺寸调试信息
+    SDL_Log("PLAYER: collider size: %.2f x %.2f", 
+            collider_->getSize().x, collider_->getSize().y);
+    
+    // 输出调试日志结束
+    SDL_Log("=== PLAYER INIT END ===");
 }
 
 /**
@@ -74,7 +135,7 @@ void Player::handleEvents(SDL_Event &event)
  * @param dt 时间增量（秒）
  * 
  * 【更新流程】
- * 1. Actor::update(dt) - 更新子对象（精灵动画）
+ * 1. Actor::update(dt) - 更新子对象（动画、碰撞体）
  * 2. velocity_ *= 0.9 - 应用阻尼效果（每帧减速 10%）
  *    产生平滑的停止效果，模拟摩擦力
  * 3. checkState() - 检查移动状态并切换动画
@@ -87,7 +148,7 @@ void Player::handleEvents(SDL_Event &event)
  */
 void Player::update(float dt)
 {
-    // 更新子对象（精灵动画）
+    // 更新子对象（动画精灵、碰撞体）
     Actor::update(dt);
     
     // 应用速度阻尼（每帧乘以 0.9，减速 10%）
@@ -116,6 +177,7 @@ void Player::update(float dt)
  * 【实际渲染】
  * 由活跃的精灵动画（idle 或 move）负责渲染
  * 根据 is_moving_ 状态决定显示哪个动画
+ * 碰撞体在 DEBUG_MODE 下可见
  */
 void Player::render()
 {
@@ -128,7 +190,7 @@ void Player::render()
  * 
  * 【清理内容】
  * 调用 Actor::clean() 清理所有子对象
- * sprite_idle_ 和 sprite_move_ 会被自动清理
+ * sprite_idle_、sprite_move_、collider_会被自动清理
  */
 void Player::clean()
 {
@@ -227,7 +289,7 @@ void Player::keyboardControl()
  */
 void Player::move(float dt)
 {
-    // 根据速度和dt计算位移，更新位置
+    // 根据速度和 dt 计算位移，更新位置
     setPosition(position_ + velocity_ * dt);
     
     // 限制玩家位置在世界边界内
@@ -286,7 +348,7 @@ void Player::checkState()
         // 向左移动：水平翻转精灵
         sprite_idle_->setFlip(true);
         sprite_move_->setFlip(true);
-    } else {
+    }else{
         // 向右移动：不翻转
         sprite_idle_->setFlip(false);
         sprite_move_->setFlip(false);

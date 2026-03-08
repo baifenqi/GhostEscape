@@ -3,7 +3,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "D:/codelearng/stool_package/glm/lib/glm.lib"
+			"path" : "D:/codelearng/stool_package/sdl3/lib/x64/SDL3.dll"
+		},
+		{
+			"path" : "D:/codelearng/stool_package/sdl3/lib/x64/SDL3.lib"
 		}
 	],
 	"backtrace" : 3,
@@ -17,7 +20,7 @@
 		],
 		"files" : 
 		[
-			"D:/codelearng/stool_package/glm/share/glm/glmConfig.cmake",
+			"D:/codelearng/stool_package/sdl3/cmake/SDL3Config.cmake",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -28,7 +31,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 27,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
@@ -38,13 +41,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 65,
+				"line" : 70,
 				"parent" : 2
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 67,
+				"line" : 71,
 				"parent" : 2
 			}
 		]
@@ -54,30 +57,30 @@
 		"major" : 2,
 		"minor" : 9
 	},
-	"id" : "glm::glm::@6890427a1f51a3e7e1df",
+	"id" : "SDL3::SDL3-shared::@6890427a1f51a3e7e1df",
 	"imported" : true,
 	"interfaceCompileDependencies" : 
 	[
 		{
 			"backtrace" : 4,
-			"id" : "glm::glm-header-only::@6890427a1f51a3e7e1df"
+			"id" : "SDL3::Headers::@6890427a1f51a3e7e1df"
 		}
 	],
 	"interfaceLinkLibraries" : 
 	[
 		{
 			"backtrace" : 4,
-			"id" : "glm::glm-header-only::@6890427a1f51a3e7e1df"
+			"id" : "SDL3::Headers::@6890427a1f51a3e7e1df"
 		}
 	],
 	"local" : true,
-	"name" : "glm::glm",
-	"nameOnDisk" : "glm.lib",
+	"name" : "SDL3::SDL3-shared",
+	"nameOnDisk" : "SDL3.dll",
 	"paths" : 
 	{
 		"build" : ".",
 		"source" : "."
 	},
 	"sources" : [],
-	"type" : "STATIC_LIBRARY"
+	"type" : "SHARED_LIBRARY"
 }

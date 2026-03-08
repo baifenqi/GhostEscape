@@ -6,7 +6,7 @@
  * 1. 管理游戏主场景的所有对象
  * 2. 渲染背景网格和边界
  * 3. 处理玩家输入（键盘控制）
- * 4. 管理玩家对象
+ * 4. 管理玩家和敌人对象
  * 
  * 【场景配置】
  * - 世界大小：屏幕大小的 3 倍
@@ -14,8 +14,12 @@
  * - 网格间距：100 像素
  * - 边界颜色：红色（R:1, G:8, B:8）
  * 
+ * 【游戏实体】
+ * - player_: 玩家角色（用户控制）
+ * - enemy_: 敌人角色（AI 控制，追踪玩家）
+ * 
  * 【继承体系】
- * Object -> Scene -> SceneMain
+ * Object → Scene → SceneMain
  */
 
 #ifndef SCENEMAIN_H
@@ -24,17 +28,19 @@
 #include <memory>
 #include "core/Scene.h"
 
-class Player;  // 前向声明：玩家类
+class Player;   // 前向声明：玩家类
+class Enemy;    // 前向声明：敌人类
 
 /**
  * @class SceneMain
- * @brief 游戏主场景，包含玩家和背景网格
+ * @brief 游戏主场景，包含玩家、敌人和背景网格
  * 
  * 【主要功能】
  * 1. 初始化世界大小和摄像机位置
  * 2. 创建并管理玩家对象
- * 3. 追踪键盘按键状态（用于平滑移动）
- * 4. 渲染背景网格和边界框
+ * 3. 创建并管理敌人对象（AI 追踪）
+ * 4. 追踪键盘按键状态（用于平滑移动）
+ * 5. 渲染背景网格和边界框
  * 
  * 【配置常量】
  * - GRID_SIZE: 网格线间距（100 像素）
@@ -44,11 +50,13 @@ class Player;  // 前向声明：玩家类
  * 
  * 【关键属性】
  * - player_: 玩家对象指针
+ * - enemy_: 敌人对象指针
  * - keys_[256]: 键盘按键状态数组
  */
 class SceneMain : public Scene {
 private:
-    Player* player_ = nullptr;  ///< 玩家对象指针
+    Player* player_ = nullptr;   ///< 玩家对象指针
+    Enemy* enemy_ = nullptr;     ///< 敌人对象指针
 
     // ==================== 网格配置常量 ====================
     
@@ -81,6 +89,11 @@ public:
      * 4. 初始化玩家
      * 5. 设置玩家位置在世界中心
      * 6. 将玩家添加为场景子对象
+     * 7. 创建敌人对象
+     * 8. 初始化敌人
+     * 9. 设置敌人为追踪玩家
+     * 10. 设置敌人初始位置（玩家右侧 200 像素）
+     * 11. 将敌人添加为场景子对象
      */
     void init() override;
 
@@ -89,7 +102,7 @@ public:
      * @param event SDL 事件引用
      * 
      * 【处理内容】
-     * 1. 调用 Scene::handleEvents(event) 处理子对象事件
+     * 1. 调用Scene::handleEvents(event) 处理子对象事件
      * 2. 监听键盘按下事件（SDL_EVENT_KEY_DOWN）
      * 3. 监听键盘释放事件（SDL_EVENT_KEY_UP）
      * 4. 更新 keys_ 数组中的按键状态
@@ -101,8 +114,9 @@ public:
      * @param dt 时间增量（秒）
      * 
      * 【当前实现】
-     * 调用 Scene::update(dt) 更新所有子对象
+     * 调用Scene::update(dt) 更新所有子对象
      * 玩家移动逻辑在 Player::update() 中实现
+     * 敌人 AI 逻辑在 Enemy::update() 中实现
      */
     void update(float dt) override;
 
@@ -111,7 +125,7 @@ public:
      * 
      * 【渲染顺序】
      * 1. renderBackground() - 绘制背景网格和边界
-     * 2. Scene::render() - 渲染所有子对象（包括玩家）
+     * 2. Scene::render() - 渲染所有子对象（包括玩家、敌人）
      */
     void render() override;
 
@@ -119,7 +133,8 @@ public:
      * @brief 清理场景资源
      * 
      * 【清理内容】
-     * 调用 Scene::clean() 清理所有子对象
+     * 调用Scene::clean() 清理所有子对象
+     * player_和enemy_会被自动清理
      */
     void clean() override;
 

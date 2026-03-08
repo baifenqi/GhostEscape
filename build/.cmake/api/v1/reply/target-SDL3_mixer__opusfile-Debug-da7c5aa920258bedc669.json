@@ -3,10 +3,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "D:/codelearng/stool_package/sdl3/bin/ogg-0.dll"
+			"path" : "D:/codelearng/stool_package/sdl3/bin/opusfile-0.dll"
 		},
 		{
-			"path" : "SDL3_mixer::ogg-NOTFOUND"
+			"path" : "SDL3_mixer::opusfile-NOTFOUND"
 		}
 	],
 	"backtrace" : 5,
@@ -16,7 +16,8 @@
 		[
 			"add_library",
 			"include",
-			"find_package"
+			"find_package",
+			"set_target_properties"
 		],
 		"files" : 
 		[
@@ -32,7 +33,7 @@
 			{
 				"command" : 2,
 				"file" : 2,
-				"line" : 25,
+				"line" : 30,
 				"parent" : 0
 			},
 			{
@@ -52,7 +53,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 67,
+				"line" : 81,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 83,
 				"parent" : 4
 			}
 		]
@@ -62,11 +69,33 @@
 		"major" : 2,
 		"minor" : 9
 	},
-	"id" : "SDL3_mixer::ogg::@6890427a1f51a3e7e1df",
+	"id" : "SDL3_mixer::opusfile::@6890427a1f51a3e7e1df",
 	"imported" : true,
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "SDL3_mixer::ogg::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "SDL3_mixer::opus::@6890427a1f51a3e7e1df"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "SDL3_mixer::ogg::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "SDL3_mixer::opus::@6890427a1f51a3e7e1df"
+		}
+	],
 	"local" : true,
-	"name" : "SDL3_mixer::ogg",
-	"nameOnDisk" : "ogg-0.dll",
+	"name" : "SDL3_mixer::opusfile",
+	"nameOnDisk" : "opusfile-0.dll",
 	"paths" : 
 	{
 		"build" : ".",
